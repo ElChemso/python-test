@@ -6,8 +6,8 @@ The test is connected to a local instance of MySQL that contains three tables:
 `user`, `role` and `user_role_map`. 
 
 The `user` table contains: `id`, `username` and `password_hash`. 
-The role table contains: `id` and `role_name`. 
-The user_role_map contains `user_id` and `role_id`
+The `role` table contains: `id` and `role_name`. 
+The `user_role_map` contains `user_id` and `role_id`
 
 At the start of each test the tables are all cleared and three roles inserted to the `role` table. 
 The roles are: `ReadOnly`, `Analyst` and `Admin`. 
