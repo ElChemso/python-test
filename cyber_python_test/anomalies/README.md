@@ -10,7 +10,8 @@ Destination Port: 3307
 Date: 2018-07-04 23:49:46.235671 
 Connection Duration ms: 106 
 Orig Bytes: 850 
-Resp Bytes: 366104 ```
+Resp Bytes: 366104 
+```
 
 In this data a single result will contain an anomaly where the connection duration, orig bytes or resp bytes is much larger than 
 all other results. 

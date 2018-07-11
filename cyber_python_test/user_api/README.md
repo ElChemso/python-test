@@ -19,11 +19,11 @@ d = {'role': 'engineer'}
 ```
 Can be accessed:
 ```python
-`d.role`
+d.role
 ```
 or:
 ```python
-`d['role']`
+d['role']
 ```
  
 ##### Objectives of the test:
