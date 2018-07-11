@@ -1,4 +1,4 @@
-##Python User Service and API Test
+### Python User Service and API Test
 
 This test provides a single class called user_service and a single test class that tests it. 
 
@@ -26,12 +26,12 @@ or:
 `d['role']`
 ```
  
-#####Objectives of the test:
+##### Objectives of the test:
 1. Implement the missing methods and complete the unit test for `get_user_by_id`
 2. Implement the missing method and unit test for `is_user_admin`
 3. Fix the broken test `test_hash_password_returns_string`
 4. Implement the missing method `authenticate_user`
 5. Improve the security of the password hashing function
 
-#### Secondary objectives
+##### Secondary objectives
 There is a users endpoint built on a flask. Using the user service finish this endpoint so it can create, and get users. 
